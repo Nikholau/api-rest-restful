@@ -1,0 +1,11 @@
+{
+  "name": "api-rest-restful",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Nikholau/api-rest-restful.git",
+  "author": "Nikholau <nikholasyan12@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
