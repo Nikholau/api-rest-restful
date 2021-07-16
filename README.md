@@ -24,3 +24,24 @@ A transferência de dados, geralmente usando protocolo HTTP
 - _Layered System_ : O cliente acessa a um endpoint, sem precisar saber da complexidade, de quais passos estão sendo necessários para o servidor responder a requisição, ou quais outras camadas o servidor estará lidando, para que a requisição seja respondida.
 
 - _Code on demand (optional)_: Dá a possibilidade da nossa aplicação pegar códigos, como o javascript, por exemplo, e executar no cliente.
+
+
+### BOAS PRATICAS
+
+- Utilizar verbos HTTP para as requisições.
+- Utilizar plural ou singular na criação dos endpoints? NÃO IMPORTA! use um padrão!!
+- Não deixar barra no final do endpoint
+- Nunca deixe o cliente sem resposta!
+
+### STATUS DA RESPOSTA
+
+- 1xx: Informação
+- 2xx: Sucesso
+    - 200: OK
+    - 201: CREATED
+    - 204: Não tem conteúdo PUT POST DELETE
+- 3xx: Redirection
+- 4xx: Client Error
+    - 400: Bad Request
+    - 404: Not Found!
+- 5xx: Server Error 500: Internal Server Error
